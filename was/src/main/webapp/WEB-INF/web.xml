@@ -4,4 +4,18 @@
 
 <web-app>
   <display-name>was</display-name>
+  <description>
+        This is a simple web application with a source code organization
+        based on the recommendations of the Application Developer's Guide.
+    </description>
+
+    <servlet>
+        <servlet-name>was</servlet-name>
+        <servlet-class>com.eidiko</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>was</servlet-name>
+        <url-pattern>/was</url-pattern>
+    </servlet-mapping>
 </web-app>
